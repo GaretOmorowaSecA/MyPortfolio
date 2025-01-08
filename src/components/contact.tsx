@@ -70,7 +70,7 @@ const Contact: React.FC = () => {
     { 
       name: 'GitHub', 
       icon: FaGithub, 
-      url: 'https://github.com/garetomorowa'
+      url: 'https://github.com/GaretOmorowaSecA'
     }
   ];
   const getStyles = useCallback((): Record<string, CSSProperties> => {
@@ -356,7 +356,7 @@ const Contact: React.FC = () => {
           </h3>
           <div className="flex justify-center">
             <QRCodeCanvas  
-              value="https://yourportfolio.com" 
+              value="https://GaretOmorowaSecA.github.io/MyPortfolio" 
               size={150} 
               fgColor={palette.text}
               bgColor={palette.background}

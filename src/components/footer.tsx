@@ -55,7 +55,7 @@ const Footer: React.FC = () => {
     { 
       name: 'GitHub', 
       icon: FaGithub, 
-      url: 'https://github.com/garetomorowa',
+      url: 'https://github.com/GaretOmorowaSecA',
       color: '#333',
       hoverEffect: {
         scale: 1.2,
