@@ -109,7 +109,7 @@ const About: React.FC = () => {
         'Overcoming traditional design limitations',
         'Creating scalable visual language',
       ],
-      image: '/images/design_inception.jpeg',
+      image: '/MyPortfolio/images/design_inception.jpeg',
       icon: MilestoneIcons.design,
     },
     {
@@ -127,7 +127,7 @@ const About: React.FC = () => {
         'Integrating complex frontend architectures',
         'Optimizing performance at scale',
       ],
-      image: '/images/code_revolution.jpeg',
+      image: '/MyPortfolio/images/code_revolution.jpeg',
       icon: MilestoneIcons.code,
     },
     {
@@ -145,7 +145,7 @@ const About: React.FC = () => {
         "Balancing innovative design with user needs",
         "Ensuring seamless technology integration"
       ],
-      "image": "/images/innovation_design.jpeg",
+      "image": "/MyPortfolio/images/innovation_design.jpeg",
       icon: MilestoneIcons.innovation,
     },
   ];
