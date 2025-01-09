@@ -39,7 +39,7 @@ interface Role {
 
 const backgroundGradients = {
   web: 'bg-gradient-to-br from-[#1E293B] via-[#2C3E50] to-[#111827]',
-  design: 'bg-gradient-to-br from-[#FF3E00] via-[#9333EA] to-[#22C55E]'
+  design: 'bg-gradient-to-br from-[#22C55E] via-[#9333EA] to-[#FF3E00]'
 };
 
 const Introduction: React.FC = () => {
@@ -293,16 +293,19 @@ const Introduction: React.FC = () => {
           }}
         >
           Hi, I'm <span 
-            className={`
-              ${mode === 'web' 
-                ? 'text-[#3B82F6]' 
-                : 'text-[#FF3E00]'
-              } 
-              animate-pulse
-            `}
+            className={`relative z-10`}
+            style={{
+              color: mode === 'web' ? '#FACC15' : '#22C55E',
+              textShadow: `
+                0px 0px 10px ${mode === 'web' ? '#3B82F6' : '#9333EA'},
+                0px 0px 20px ${mode === 'web' ? '#22C55E' : '#FF3E00'}
+              `
+            }}
           >
             Garet Omorowa
           </span>
+
+
         </motion.h1>
   
         <motion.div 
